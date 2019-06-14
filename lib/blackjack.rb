@@ -37,13 +37,13 @@ def initial_round
   # code #initial_round here
 end
 
-def hit?(num)
+def hit?(card_total)
   prompt_user
   input = get_user_input
   if input == "h"
     num  += deal_card
   elsif input == "s"
-   card_total
+   num
   else 
     invalid_command
      hit?(num)
