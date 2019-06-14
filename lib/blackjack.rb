@@ -41,9 +41,9 @@ def hit?(num)
   prompt_user
   input = get_user_input
   if input == "h"
-   puts num = num + deal_card
+    num = num + deal_card
   elsif input == "s"
-    puts card_total
+   card_total
   else 
     invalid_command
      hit?(num)
