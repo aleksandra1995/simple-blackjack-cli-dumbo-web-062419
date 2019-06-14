@@ -64,7 +64,8 @@ end
 
 def runner
   welcome
-  until 
+  number = 21
+  until number > 0 
   
 end
     
